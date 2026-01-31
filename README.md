@@ -8,11 +8,15 @@
 Приложение на C++ для анализа мультиспектральных снимков Sentinel-2. Рассчитывает вегетационные индексы (NDVI, EVI, PRI)
 и выполняет геостатистический анализ полей.
 
-> Это демо-репозиторий. Исходный код приватный.
+> Это репозиторий для демонстрации возможностей программы. Сам исходный код приватный.
 
 ## Демо
 
 https://github.com/user-attachments/assets/a78ec42e-de7a-4b25-a0c4-8775d01b7a16
+
+### Исходный снимок
+
+![Source]()
 
 ## Возможности
 
@@ -50,7 +54,7 @@ https://github.com/user-attachments/assets/a78ec42e-de7a-4b25-a0c4-8775d01b7a16
 
 ![PRI](https://github.com/user-attachments/assets/f97cdbce-9f8d-431c-bfb4-3a2c4b376076)
 
-### Процесс работы
+### Вывод
 
 ![Terminal](https://github.com/user-attachments/assets/6633ff63-ab59-484e-8d0b-70075b164940)
 
