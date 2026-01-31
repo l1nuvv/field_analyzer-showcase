@@ -16,7 +16,8 @@ https://github.com/user-attachments/assets/a78ec42e-de7a-4b25-a0c4-8775d01b7a16
 
 ### Исходный снимок
 
-![Source]()
+
+![Source](https://iili.io/fQIf0qQ.md.jpg)
 
 ## Возможности
 
