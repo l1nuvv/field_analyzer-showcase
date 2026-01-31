@@ -71,12 +71,21 @@ https://github.com/user-attachments/assets/a78ec42e-de7a-4b25-a0c4-8775d01b7a16
 ## Выходные файлы
 
 ```
-ndvi_colored.png      # Тепловая карта NDVI
-evi_colored.png       # Тепловая карта EVI
-pri_colored.png       # Тепловая карта PRI
-ndvi_stats.txt        # Статистика (min/max/mean/stddev)
-true_color_rgb.png    # RGB превью
-vegetation_class.png  # Классификация зон
+ndvi_colored.png # Тепловая карта NDVI
+ndvi_classified.png # Классификация зон NDVI
+ndvi_stats.txt # Статистика (min/max/mean/stddev)
+ndvi_variogram.csv # Данные вариограммы
+ndvi_variogram_params.json # Параметры модели вариограммы
+
+evi_colored.png # Тепловая карта EVI
+evi_classified.png # Классификация зон EVI
+evi_kriging.png # Интерполяция кригингом
+evi_stats.txt # Статистика EVI
+
+pri_colored.png # Тепловая карта PRI
+pri_classified.png # Классификация зон PRI
+pri_kriging.png # Интерполяция кригингом
+pri_stats.txt # Статистика PRI
 ```
 
 ## Контакты
