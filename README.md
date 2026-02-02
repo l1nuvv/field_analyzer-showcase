@@ -8,7 +8,7 @@
 Приложение на C++ для анализа мультиспектральных снимков Sentinel-2. Рассчитывает вегетационные индексы (NDVI, EVI, PRI)
 и выполняет геостатистический анализ полей.
 
-> Это репозиторий для демонстрации возможностей программы. Сам проект приватный из-за участия в стартапе.
+> Это репозиторий для демонстрации возможностей программы. Проект является проприетарным стартапом.
 
 ## Демо
 
@@ -31,7 +31,7 @@ https://github.com/user-attachments/assets/a78ec42e-de7a-4b25-a0c4-8775d01b7a16
 
 - Расчет эмпирических вариограмм
 - Подбор теоретических моделей (сферическая, экспоненциальная, Гаусса)
-- Оптимизация через KD-Tree: O(N²) → O(N log N)
+- Кригинговая интерполяция
 
 **Производительность:**
 
@@ -61,7 +61,7 @@ https://github.com/user-attachments/assets/a78ec42e-de7a-4b25-a0c4-8775d01b7a16
 
 ## Технический стек
 
-* **Язык:** C++17
+* **Язык:** C++20
 * **Обработка изображений:** OpenCV 4.x
 * **Геопространственные данные:** GDAL (JP2, GeoTIFF)
 * **Линейная алгебра:** Eigen3
@@ -71,21 +71,21 @@ https://github.com/user-attachments/assets/a78ec42e-de7a-4b25-a0c4-8775d01b7a16
 ## Выходные файлы
 
 ```
-ndvi_colored.png # Тепловая карта NDVI
-ndvi_classified.png # Классификация зон NDVI
-ndvi_stats.txt # Статистика (min/max/mean/stddev)
-ndvi_variogram.csv # Данные вариограммы
-ndvi_variogram_params.json # Параметры модели вариограммы
+ndvi_colored.png            # Тепловая карта NDVI
+ndvi_classified.png         # Классификация зон NDVI
+ndvi_stats.txt              # Статистика (min/max/mean/stddev)
+ndvi_variogram.csv          # Данные вариограммы
+ndvi_variogram_params.json  # Параметры модели вариограммы
 
-evi_colored.png # Тепловая карта EVI
-evi_classified.png # Классификация зон EVI
-evi_kriging.png # Интерполяция кригингом
-evi_stats.txt # Статистика EVI
+evi_colored.png             # Тепловая карта EVI
+evi_classified.png          # Классификация зон EVI
+evi_kriging.png             # Интерполяция кригингом
+evi_stats.txt               # Статистика EVI
 
-pri_colored.png # Тепловая карта PRI
-pri_classified.png # Классификация зон PRI
-pri_kriging.png # Интерполяция кригингом
-pri_stats.txt # Статистика PRI
+pri_colored.png             # Тепловая карта PRI
+pri_classified.png          # Классификация зон PRI
+pri_kriging.png             # Интерполяция кригингом
+pri_stats.txt               # Статистика PRI
 ```
 
 ## Контакты
