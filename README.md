@@ -1,8 +1,8 @@
 # Field Analyzer
 
-![C++17](https://img.shields.io/badge/C%2B%2B-17-00599C?style=flat&logo=cplusplus&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.x-5C3EE8?style=flat&logo=opencv&logoColor=white)
-![GDAL](https://img.shields.io/badge/GDAL-3.x-88C940?style=flat)
+![C++17](https://img.shields.io/badge/C%2B%2B-20-00599C?style=flat&logo=cplusplus&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.12-5C3EE8?style=flat&logo=opencv&logoColor=white)
+![GDAL](https://img.shields.io/badge/GDAL-3.12-88C940?style=flat)
 ![License](https://img.shields.io/badge/license-private-red?style=flat)
 
 Приложение на C++ для анализа мультиспектральных снимков Sentinel-2. Рассчитывает вегетационные индексы (NDVI, EVI, PRI)
